@@ -1,0 +1,16 @@
+# UAS-PBO
+
+class Handphone:
+    def menyalakan(self):
+        return 'menyalakan Handphone'
+        
+class Komputer:
+    def menyalakan(self):
+        return 'menyalakan Komputer'
+        
+obj_hp = Handphone()
+obj_kmp = Komputer()
+
+for obj in [obj_hp, obj_kmp]:
+    print(obj.menyalakan())
+    
