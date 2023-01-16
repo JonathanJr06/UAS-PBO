@@ -1,0 +1,10 @@
+# UAS-PBO
+import sys
+
+def convert(s):
+    '''convert to integer'''
+    try:
+        return int(s)
+    except (ValueError, TypeError) as e:
+        print("Konversi error : {}".format(str(e)), file=sys.stderr)
+        raise
