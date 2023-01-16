@@ -1,0 +1,12 @@
+# UAS-PBO
+class Toko:
+    def __init__(self, nama_toko, pemilik, mobile):
+        self.nama_toko = nama_toko
+        self.pemilik = pemilik
+        self.mobile = mobile
+    def InfoToko(self):
+        print('Nama Toko =', self.nama_toko)
+        print('Pemilik Toko =', self.pemilik)
+        print('No.Telp =', self.mobile)
+tk1 = Toko ('Toko Jaya', 'Karmin', '02717754')
+tk1.InfoToko()
